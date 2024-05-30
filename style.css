@@ -16,6 +16,18 @@ body {
     box-sizing: border-box;
 }
 
+.titulo {
+    border: 2px solid grey; /* Borde gris */
+    padding: 10px; /* Espacio alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 24px; /* Tamaño de fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    background-color: rgb(242, 242, 242); /* Color de fondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
 button {
     background-color: grey;
     border: none;
